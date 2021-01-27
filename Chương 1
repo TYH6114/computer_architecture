@@ -1,0 +1,101 @@
+Nội dung chính :
+  1. Máy tính và phân loại máy tính
+  2. Khái niêm kiến trúc máy tính
+  3. Sự tiến hóa của công nghệ
+  4. Hiệu năng máy tính
+  
+  
+1. Máy tính và phân loại
+  + Máy tính: 
+      - Nhận dữ liệu vào 
+      - Xử lý dữ liệu theo các dãy lệnh được nhớ sẵn bên trong
+      - Đưa dữ liệu (thông tin ) ra 
+  + Chương trình: 
+      - Dãy các lệnh nằm trong bộ nhớ để yêu cầu máy tính thực hiện công việc cụ thể
+      
+      
+  + Mô hình:
+    
+     ______________            ____________________           _______________
+    |              |          |   [CPU]            |         |               |
+    | Input device |  ===>>   |     +              | =====>> | Output device |
+    |              |          |   [Main memory]    |         |               |
+    |______________|          |____________________|         |_______________|
+    
+   + Phân loại:
+        - Máy tính cá nhân (destop, laptop)
+        - Máy chủ (server)
+        - Siêu máy tính (Máy tính lượng tử) 
+        - Máy tính nhúng (trong các thiết bị điện tử)
+        - Thiết bị cá nhân
+        - Điện toán đám mây (cloud computing)
+        
+2. Kiếm trúc máy tính
+    + Gồm:
+      - Kiến trúc tập lệnh (Instruction Set architecture)
+        (nghiên cứu máy tính theo cách nhìn của người lập trình)
+      - Tổ chức máy tính  (Computer organization)
+        (Nghiên cứu thiết kế máy tính ở mức cao)
+      - Phần cứng (Hardware)
+         (Nghiên cứu thiết kế logic chi tiết và công nghệ đóng gói)
+         
+    + Cùng kiến trúc tập lệnh có thể có nhiều phần cứng và tổ chức khác nhau (giống như giải một bài toán vậy)
+    
+    
+    + Phân lớp máy tính:
+        - Phần mềm ứng dụng:    Được viết theo ngôn ngữ bậc cao và là nơi giao tiếp với người dùng thông thường
+        - Phần mềm hệ thống:    Dùng để biên dịch các ngôn ngữ bậc cao thành ngôn ngữ máy
+                    + Chương trình dịch (compiler)
+                    + Hệ điều hành
+                           - Lập lịch cho các nhiệm cụ và chia sẻ tài nguyên (bao gồm quản lý , cấp phát)
+                           - Quản lý bộ nhớ và lưu trữ
+                           - Điều khiển vào ra
+         - Phần cứng
+                   - Bộ xử lý , bộ nhớ, module vào ra
+     + Các mức của mã chương trình
+          - Ngôn ngữ bậc cao: 
+                + High-level language - HLL
+                + Mức trừu tượng gần cới vấn đề cần giải quyết
+                + Hiệu quả và linh động
+           - Hợp ngữ
+           - Ngôn ngữ máy  (biểu diễn bằng 2 bit 1, 0)
+     + Các thành phần cơ bản của máy tính
+             
+             CPU       Mainmemory
+             ||            ||
+             ||            ||           
+          _________________________
+                Bus hệ thống
+          __________________________
+                      ||
+                      ||
+          __________________________
+               Hệ thống vào ra
+          __________________________
+          
+                        - Bộ xử lý trung tâm (central processing unit - CPU)
+                                + Điều khiển hoạt động của máy tính
+                        - Bộ nhớ chính (Main memory)
+                                + Chứa các chương tình đang thực hiện
+                        - Hệ thống vào ra
+                                 + Trao đổi thông tin giữa máy tính với bên ngoài
+                        - Bus hệ thống (system bus)
+                                  + Kết nối và vận chuyển thông tin
+                                  
+                                  
+3. Hiệu năng máy tính
+        + Hiệu năng = 1 / thời gian thực hiện
+        Công thức:   P = 1/t
+        
+        + Tốc độ xung nhịp của cpu
+             - Hoạt động theo một xung nhịp có tốc độ xác định
+             - Chu kỳ:   T (Clock period) - Thời gian của một chu kỳ
+             - Tốc độ xung nhịp - fo (clock rate)  - Tần số xung nhịp (số chu kỳ trong 1 s)
+                  fo = 1 / To
+        + Thời gian thực hiện của CPU:
+              - Thời gian thực hiện của cpu = số chu kỳ xung nhịp  * thời gian một chu kỳ
+              - tcpu = n * To = n / fo
+              
+              
+                        
+     
