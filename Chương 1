@@ -87,6 +87,9 @@ Nội dung chính :
         + Hiệu năng = 1 / thời gian thực hiện
         Công thức:   P = 1/t
         
+        + CPU : Hoạt động theo một xung nhịp có tốc độ xác định
+        
+        
         + Tốc độ xung nhịp của cpu
              - Hoạt động theo một xung nhịp có tốc độ xác định
              - Chu kỳ:   T (Clock period) - Thời gian của một chu kỳ
@@ -94,7 +97,31 @@ Nội dung chính :
                   fo = 1 / To
         + Thời gian thực hiện của CPU:
               - Thời gian thực hiện của cpu = số chu kỳ xung nhịp  * thời gian một chu kỳ
-              - tcpu = n * To = n / fo
+              - tcpu = n * To = n / To
+              
+        + Tóm lại là:
+            Thời gian thực hiện của cpu đối với 1 chương trình là:
+               t_cpu = n . T = IC*CPI*T = IC.CPI 1/fo 
+               IC: số lệnh
+               CPI: Số chu kỳ trên một lệnh
+               fo: Tốc độ xung nhịp
+               
+         + Hiệu năng phụ thuộc vào:
+                  - Thuật giải
+                  - Ngôn ngữ lập trình
+                  - Chương trình dịch
+                  - Kiến trúc tập lệnh
+                  - Phần cứng
+         + Kiến trúc tập lệnh của MIPS:
+           MIPS: Milions of Instrcution Per Second
+           (Số triệu lệnh trên 1 s)
+           
+           MIPS = fo/(CPI * 10^6)
+           
+           
+          
+
+           
               
               
                         
